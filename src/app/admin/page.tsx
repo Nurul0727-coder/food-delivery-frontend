@@ -1,5 +1,5 @@
 'use client'
-
+import { Footer } from "./_components/Footer";
 import Categories from './_components/Category';
 
 export default function Home() {
@@ -9,6 +9,7 @@ export default function Home() {
       <p className='text-slate-800'></p>
       <Categories/>
     </div>
+       <Footer />  
     </div>
   );
 
