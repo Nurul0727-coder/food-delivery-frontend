@@ -12,7 +12,7 @@ export default function Category() {
 
   const addCategory = async () =>{
     const categoryName = prompt('Enter new category name')
-    const response = await fetch ('http://localhost:8005/food-category',{
+    const response = await fetch ('http://localhost:8000/food-category',{
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -25,7 +25,7 @@ export default function Category() {
 
   useEffect(()=>{
     const fetchData= async ()=>{
-      const response = await fetch ('http://localhost:8005/food-category');
+      const response = await fetch ('http://localhost:8000/food-category');
       const data = await response.json();
       setCategories(data);
     };
