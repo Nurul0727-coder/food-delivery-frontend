@@ -3,10 +3,11 @@
 
 export default function Home (){
     return (
-        <div>
-
-            {/* <Footer/> */}
-        </div>
+      <div>
+        <h1>Home</h1>
+        <p>Welcome to the home page</p>
+        {/* <Footer />   */}
+      </div>
     );
-
 };
+
