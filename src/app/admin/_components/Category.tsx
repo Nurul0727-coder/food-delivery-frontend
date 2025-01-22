@@ -34,7 +34,7 @@ export default function Category() {
   },[]);
 
   return (
-  <div className="w-[1171px] h-[176px] bg-yellow-200 ml-[250px] rounded-xl">
+  <div className="w-[1171px] h-[176px] bg-white ml-[250px] rounded-xl">
     <h1 className="font-semibold ">Dishes category</h1>
     {categories.map((category)=> (
       <div key={category._id}> {category.categoryName}</div>
