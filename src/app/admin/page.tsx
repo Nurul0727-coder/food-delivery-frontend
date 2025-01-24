@@ -7,7 +7,7 @@ export default function Home() {
     <div className='w-[1171px] h-[176px] bg-yellow-200'>
       <div className='w-[145px] h-[36px] rounded-full bg-slate-600 '>
       <p className='text-slate-800'></p>
-      <Categories/>
+      {/* <Categories/> */}
     </div>
        <Footer />  
     </div>
