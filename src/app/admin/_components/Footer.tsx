@@ -34,7 +34,7 @@ return(
 
                     </div>
                     <div>
-                    <p className="text-black%">MENU</p>
+                    <p className="text-black">MENU</p>
                     <p className="text-white mt-[10px]">Side dishes</p>
                     <p className="text-white mt-[10px]">Brunch</p>
                     <p className="text-white mt-[10px]">desserts</p>

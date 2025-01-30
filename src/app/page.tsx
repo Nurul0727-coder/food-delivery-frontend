@@ -9,7 +9,7 @@ export default function Home (){
       <div>
         <Header />
         <div>
-            <Category />
+            {/* <Category /> */}
         </div>
         <Footer />  
       </div>
