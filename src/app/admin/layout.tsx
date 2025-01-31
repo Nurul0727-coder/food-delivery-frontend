@@ -6,10 +6,31 @@ import { CiDeliveryTruck } from "react-icons/ci";
 import { LuSettings } from "react-icons/lu";
 import Appetizers from './_components/Appetizers';
 import {Uploader} from './_components/Uploader';
+// import {
+//   ClerkProvider,
+//   SignInButton,
+//   SignedIn,
+//   SignedOut,
+//   UserButton
+// } from '@clerk/nextjs'
+// import { Children } from 'react';
 
 export default function Home() {
+
+
   return (
     <div className='bg-slate-100'>
+      {/* <div>
+      <ClerkProvider>
+//           <SignedOut>
+//             <SignInButton />
+//           </SignedOut>
+//           <SignedIn>
+//             <UserButton />
+//           </SignedIn>
+//     </ClerkProvider>
+
+      </div> */}
     <div className='h-[100vh] w-[205px] bg-white '>
       <img className=" pt-[50px] text-black" src="LogoContainer.png" alt="header logo" />
       <div >
@@ -39,13 +60,7 @@ export default function Home() {
 
 
 
-// import {
-//   ClerkProvider,
-//   SignInButton,
-//   SignedIn,
-//   SignedOut,
-//   UserButton
-// } from '@clerk/nextjs'
+
 // export default function RootLayout({
 //   children,
 // }: {
@@ -55,7 +70,7 @@ export default function Home() {
 //     <ClerkProvider>
 //           <SignedOut>
 //             <SignInButton />
-//           </SignedOut>
+//           </SignedOut>x
 //           <SignedIn>
 //             <UserButton />
 //           </SignedIn>

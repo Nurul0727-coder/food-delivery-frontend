@@ -13,8 +13,8 @@ export default function Page() {
     
         fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/categories?token=${token}`,{
             // headers:{
-            //     auth:token,
-            // }
+            //     authentication:token,
+            // },
         })
         .then((res)=>res.json())
         .then((data)=>console.log(data));

@@ -54,7 +54,7 @@ return(
             <div className="w-[1264px] h-[84px] bg-black text-[#71717A] mt-[150px] flex justify-start  rounded-t border-pink-400
             ">
                 <div className="gap-11 flex">
-                <p> Copy right 2024 © Nomnom LLC</p>
+                <p>Copy right 2024 © Nomnom LLC</p>
                 <p>Privacy Policy</p>
                 <p>Terms of Condition</p>
                 <p>Cookie Policy</p>
