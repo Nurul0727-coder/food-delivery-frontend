@@ -2,13 +2,13 @@
 
 import { useState } from "react";
 
+
 const CLOUDINARY_CLOUD_NAME = 'dcpnqt4db';
 const CLOUDINARY_UPLOAD_PRESET = 'food-delivery';
 
 export const Uploader = () => {
     const [imageUrl, setImageUrl] = useState('');
     const [loading, setLoading] = useState(false);
-     
     const handleUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
         if (e.target.files && e.target.files.length>0){
             const file = e.target.files[0];
@@ -35,12 +35,23 @@ export const Uploader = () => {
     };
 
     return (
-        <div>
-            <input disabled={loading} type="file" onChange={handleUpload} />
-            <button>Upload</button>
+        <div className="bg-red-600 w-[36px] h-[36px] rounded-full text-black flex items-center justify-center bottom-4 left-4 hover:bg-red-700 "
+        onClick={Uploader}
+      >
+        +
+            <input className="text-black" disabled={loading} type="file" onChange={handleUpload} />
+            <button 
+        className="bg-red-600 w-[36px] h-[36px] rounded-full text-black flex items-center justify-center bottom-4 left-4 hover:bg-red-700 "
+        onClick={Uploader}
+      >
+        +
+      </button>
             {imageUrl && <img src={imageUrl} alt="uploaded" />}
         </div>
+        
+        
     );
+    
 };
 
 

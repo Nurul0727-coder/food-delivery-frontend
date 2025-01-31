@@ -5,6 +5,7 @@ import { TfiMenuAlt } from "react-icons/tfi";
 import { CiDeliveryTruck } from "react-icons/ci";
 import { LuSettings } from "react-icons/lu";
 import Appetizers from './_components/Appetizers';
+import {Uploader} from './_components/Uploader';
 
 export default function Home() {
   return (
@@ -19,7 +20,9 @@ export default function Home() {
 
       <div>
         <div className='w-[100%] h-[176px] mt-[-250px]'>< Categories/> </div>
-        <div className='w-[100%] h-[582px]  mt-[50px]'>< Appetizers/></div>
+        <div className='w-[100%] h-[582px]  mt-[50px]'>
+          < Appetizers />
+        </div>
       </div>
     </div>
     </div>
